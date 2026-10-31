@@ -5,6 +5,14 @@ public class Person{
         this.ID = ID;
         this.name = name;
     }
+
+    public int getID(){
+        return ID;
+    }
+
+    public String getName(){
+        return name;
+    }
 }
 
 class Patient extends Person{
